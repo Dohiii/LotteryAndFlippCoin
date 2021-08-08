@@ -439,9 +439,15 @@ button {
     height: 70vh;
   }
   .card1 {
-    order: 2;
+    order: 3;
   }
   .card2 {
+    order: 2;
+  }
+  .card3 {
+    background: #753bbd;
+    color: #ffffff !important;
+    height: 30vh;
     order: 1;
   }
 }
