@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="slick-loader.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="page-contain">
+      <a href="#" class="data-card card1">
+        <h3>Losój</h3>
+        <h4>naciśnij START odczekaj chwilę.
+          Powodzenia!</h4>
+        <!-- <p>Aby wylosować zwycięzcę on-line naciśnij START odczekaj chwilę.
+          Powodzenia!</p>
+                 <p>Aby usunuć uczestnika klickni 2 razy na nego w liste albo wyberz i
+            klickni:</p> -->
+          
+        </p>
+        <button class="btn-small deleteSelected my">Usuń wybrane!</button>
+        <select
+          name="addedPlayer"
+          id="addedPlayer"
+          size="8"
+          class="my"
+          aria-placeholder="Wgrai"
+        ></select>
+        <button class="btn start my">START</button>
+        <div class="btnsResAndRep">
+          <button class="btn rePeat my">Odnowa!</button>
+          <button class="btn reStart my">Zresetuj</button>
+        </div>
+      </a>
+      <a href="#" class="data-card card2">
+        <h3>Dodaj</h3>
+        <h4>Wprowadź ręcznię imie uczestnika losowania i klickni ENTER</h4>
+        <p class="textDoday">Albo nacisni Dodaj  
+        </p>
+        <form action="enter" id="playerForm" class="my">
+          <input
+            type="text"
+            placeholder="Wpisz imie uczestnika..."
+            placeholder="ENTER albo Dodaj."
+            class="input my"
+          />
+        </form>
+        <button class="btn add my">Dodaj</button>
+              </a>
+      <a href="#" class="data-card card3">
+               <h4>Potrzebujesz szybkej decizii?</h4>
+               <p>Rzut Monetą</p>
+       <div id="coin">
+  <div class="side-a"></div>
+  <div class="side-b"></div>
+  
+  
+
+  
+</div>
+
+<div id="Content"></div>
+
+
+
+              </a>
+    </section>
+
+    <!-- <section class="main">
+      <div id="container">
+        <h1 class="my">Darmowy program do losowania zwycięzcy</h1>
+        <p class="my">
+          Aby wylosować zwycięzcę on-line naciśnij START odczekaj chwilę.
+          Powodzenia!
+
+          <br /><br />
+          <p>Aby usunuć uczestnika klickni 2 razy na nego w liste albo wyberz i
+            klickni:</p>
+          
+        </p>
+        <button class="btn-small deleteSelected my">Usuń wybrane!</button>
+        <select
+          name="addedPlayer"
+          id="addedPlayer"
+          size="8"
+          class="my"
+          aria-placeholder="Wgrai"
+        ></select>
+        <button class="btn start my">START</button>
+        
+        <div class="btnsResAndRep">
+          <button class="btn rePeat my">Odnowa!</button>
+          <button class="btn reStart my">Zresetuj</button>
+        </div>
+        <p class="my">
+          Wprowadź ręcznię imie uczestnika losowania i klickni ENTER
+        </p>
+        <form action="enter" id="playerForm" class="my">
+          <input
+            type="text"
+            placeholder="Wpisz imie uczestnika..."
+            placeholder="ENTER albo Dodaj."
+            class="input my"
+          />
+        </form>
+        <button class="btn add my">Dodaj</button>
+      </div>
+      
+    </section> -->
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="slick-loader.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <script src="sweetalert2.all.min.js"></script> -->
+    <script src="app.js"></script>
+  </body>
+</html>
